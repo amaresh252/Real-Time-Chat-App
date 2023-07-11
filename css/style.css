@@ -1,0 +1,90 @@
+body{
+    height: 101vh; 
+    background-image: linear-gradient(#6FC9A6,#52DCAE,#20BD89,#2E6671);
+}
+ 
+.logo{
+    display: block;
+    margin: auto;
+    height: 75px;
+    width: 120px;
+}
+h1{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.container{
+    max-width: 955px;
+    border: 2px solid lightslategrey;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    background-image: url(chat-background1.jpg);
+    background-attachment: fixed;
+}
+  
+.message{
+    background-color: #f0f2f5;
+    color: black;
+    width: 24%;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 17px 12px;
+    border-radius: 10px;
+}
+
+.left{
+float: left;
+clear: both;
+background-color: #48b4a0;
+}
+
+
+
+.right{
+float: right;
+clear: both;
+background-color:#7CD4AC;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#messageInp{
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 32px;
+    font-size: 19px;
+    padding: 1px 10px;
+    font-family: serif;
+    background-color: white;
+}
+
+.btn{
+margin: 0 5px;
+width: 9%;
+cursor: pointer;
+border: 2px solid black;
+border-radius: 6px;
+height: 34px;
+background-color: #20BD89;
+}
+.btn:hover{
+    background-color:#52DCAE;
+} 
